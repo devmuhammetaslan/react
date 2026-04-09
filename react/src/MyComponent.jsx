@@ -1,15 +1,15 @@
-import React,{ useState } from "react";
+import React,{ use, useState } from "react";
 
 function MyComponent() {
     const [name,setName] = useState("Guest");//burası default değeri yani
     const [age,setAge] = useState(0);
-
+    
     const updateName = () => {
         setName("selamlar");
     }
 
     const updateAge = () => {
-        setAge(age + 1);
+        setAge(a => a + 1);
     }
 
     return(

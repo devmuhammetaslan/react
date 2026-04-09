@@ -6,7 +6,8 @@ import Students from "./Students"
 import Userlogin from "./Userlogin"
 import List from "./List"
 import MyComponent from "./MyComponent"
-
+import Counter from "./Counter"
+import OnChange from "./onChange" 
 function App() {
   return(
     <>
@@ -27,7 +28,9 @@ function App() {
       <Userlogin name="muhammet" isLogged={true}></Userlogin>
       <List></List>
       <MyComponent></MyComponent>
-
+      <Counter></Counter>
+      <OnChange></OnChange>
+      
 
     </>
     
