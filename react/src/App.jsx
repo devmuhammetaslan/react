@@ -23,7 +23,7 @@ function App() {
       </div> */}
       <Button></Button>
       <Button></Button>
-      <Students name="sinoşum" explain="my life..." note="<3"></Students>
+      <Students name="serdar" explain="sağlam hoca" note=":O"></Students>
       <Students name></Students>
       <Userlogin name="muhammet" isLogged={true}></Userlogin>
       <List></List>

@@ -9,7 +9,7 @@ function Counter() {
     }
     const azalt = () => {
         if(count > 0){
-            setCount(count-1);
+            setCount(c => c - 1);
         }         
 
     }
