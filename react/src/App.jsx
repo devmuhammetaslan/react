@@ -8,6 +8,7 @@ import List from "./List"
 import MyComponent from "./MyComponent"
 import Counter from "./Counter"
 import OnChange from "./onChange" 
+import ToDoList from "./ToDoList"
 function App() {
   return(
     <>
@@ -30,6 +31,7 @@ function App() {
       <MyComponent></MyComponent>
       <Counter></Counter>
       <OnChange></OnChange>
+      <ToDoList></ToDoList>
       
 
     </>

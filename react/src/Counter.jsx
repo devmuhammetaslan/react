@@ -5,7 +5,7 @@ function Counter() {
 
     const artir = () => {
         // setCount(count+1);
-        setCount(c => c +1);//bu daha sağlıklı yöntem 
+        setCount(c => c + 1);//bu daha sağlıklı yöntem 
     }
     const azalt = () => {
         if(count > 0){
